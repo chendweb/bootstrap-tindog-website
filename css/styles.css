@@ -82,20 +82,6 @@ p {
     position: absolute;
 }
 
-@media (max-width: 1029px) {
-
-    #title .container-fluid {
-        text-align: center;
-    }
-
-    .phone-image {
-        width: 60%;
-        position: static;
-        transform: rotate(0deg);
-    }
-
-}
-
 /* features section */
 
 #features {
@@ -137,13 +123,6 @@ p {
     margin: 20px;
 }
 
-@media (max-width: 614px) {
-
-    .testimonial-text {
-        font-size: 2rem;
-    }
-
-}
 
 /* press section */
 
@@ -196,4 +175,59 @@ p {
 
 .copyright-text {
     font-size: 0.6rem;
+}
+
+@media (max-width: 1029px) {
+
+    #title .container-fluid {
+        text-align: center;
+    }
+
+    .phone-image {
+        width: 60%;
+        position: static;
+        transform: rotate(0deg);
+    }
+
+}
+
+@media (max-width: 728px) {
+
+    .card-column {
+        padding: 3% 2% 3%;
+    }
+
+}
+
+@media (max-width: 614px) {
+
+    .big-heading {
+        font-size: 2.25rem;
+    }
+
+    .testimonial-text {
+        font-size: 1.75rem;
+    }
+
+    .navbar {
+        padding: 0 0 2rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.75rem;
+    }
+
+
+    .phone-img-container{
+        padding-top: 5%;
+    }
+
+}
+
+@media (max-width: 468px) {
+
+    .title-download-button {
+        margin: 5% auto 1%;
+    }
+
 }
