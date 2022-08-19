@@ -191,6 +191,14 @@ p {
 
 }
 
+@media (max-width: 952px) {
+
+    .title-download-button {
+        margin: 5% 1.5%;
+    }
+
+}
+
 @media (max-width: 728px) {
 
     .card-column {
